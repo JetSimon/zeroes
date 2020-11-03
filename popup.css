@@ -1,0 +1,47 @@
+.header {
+    text-align: center;
+    font-weight:20;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+a {
+    color:lightsteelblue;
+}
+
+.howto {
+    color:lightgray;
+    text-align: center;
+    font-weight:20;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+.textbox {
+    border-radius: 10px;
+    border: 1px solid #262829;
+    outline: none;
+}
+
+.submit {
+    margin-top:1px;
+    margin-left:85px;
+    border-radius: 10px;
+    border: 1px solid #262829;
+    outline: none;
+    background-color: white;
+}
+
+.submit:hover {
+    background-color: lightgray;
+}
