@@ -9,13 +9,13 @@ submit.onclick = function calculate() {
     const posoutput = document.getElementById('out1');
     const negoutput = document.getElementById('out2');
 
-    const pos = (-b + Math.sqrt((b*b) - (4 * a * c))) / 2*a;
+    const pos = (-b + Math.sqrt((b*b) - (4 * a * c))) / (2*a);
 
-    const posRat = `(${-b} + sqrt(${b*b - (4 * a * c)}) / ${2 * a}`;
+    const posRat = `(${-b} + sqrt(${b*b - (4 * a * c)})) / ${2 * a}`;
 
-    const neg = (-b - Math.sqrt((b*b) - (4 * a * c))) / 2*a;
+    const neg = (-b - Math.sqrt((b*b) - (4 * a * c))) / (2*a);
 
-    const negRat = `(${-b} - sqrt(${b*b - (4 * a * c)}) / ${2 * a}`;
+    const negRat = `(${-b} - sqrt(${b*b - (4 * a * c)})) / ${2 * a}`;
 
     posoutput.innerHTML = ``;
     negoutput.innerHTML = ``;
